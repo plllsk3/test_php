@@ -1,0 +1,67 @@
+/* Header */
+
+html,
+body {
+	height: 100%;
+}
+
+.header {
+	height: 100px;
+	border-bottom: 2px solid #000;
+}
+
+/* /Header */
+
+/* Content */
+
+#students tr {
+	cursor: pointer;
+}
+
+.content__select p {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.content__form > p {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+/* /Content */
+
+/* Reports */
+
+#report tr {
+	cursor: pointer;
+}
+
+/* /Reports */
+
+/* Authorization */
+
+.authorization__form p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* /Authorization */
+
+@media( max-width: 992px ) {
+	.header__name h1 {
+		font-size: 35px;
+	}
+}
+
+@media( max-width: 767px ) {
+	.header {
+		height: 150px;
+	}
+}
+
+@media( max-width: 516px ) {
+	.header {
+		height: 180px;
+	}
+}
